@@ -71,14 +71,14 @@ describe App do
       expect(page).to have_text("Shooting Guard: Joe")
     end
 
-    it "displays the center's name in the browser" do
-      visit '/newteam'
-
-      fill_in(:c, :with => "Avi")
-      click_button "Submit"
-
-      expect(page).to have_text("Center: Avi")
-    end
+    # it "displays the center's name in the browser" do
+    #   visit '/newteam'
+    #
+    #   fill_in(:c, :with => "Avi")
+    #   click_button "Submit"
+    #
+    #   expect(page).to have_text("Center: Avi")
+    # end
 
 
   end
